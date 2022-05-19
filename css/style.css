@@ -27,7 +27,7 @@ header {
 }
 
 main {
-    background-image: url(../imgs/hero.jpeg);
+    /* background-image: url(../imgs/hero.jpeg); */
     background-size: cover;
 }
 
