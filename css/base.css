@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,500&display=swap');
+
+/* Basic reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root settings */
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto Flex', sans-serif;
+}
