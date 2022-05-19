@@ -4,9 +4,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
-.burger-menu{
+.burger-menu {
     font-size: 3rem;
 }
 
@@ -15,9 +16,35 @@ header {
 }
 
 
+/* Hero */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: -700px, 0;
+}
+
+main {
+    background-image: url(../imgs/hero.jpeg);
+    background-size: cover;
+}
+
+.hero h1,
+.hero p {
+    margin-bottom: 2rem;
+}
+
+
 /* Desktop */
 @media screen and (min-width:1000px) {
-    .burger-menu{
+
+    header {
+        border-bottom: 1px solid gray;
+    }
+
+    .burger-menu {
         display: none;
     }
 
@@ -25,11 +52,14 @@ header {
         display: block;
     }
 
-    .main-nav-list{
+    .main-nav-list {
         list-style: none;
         display: flex;
         width: 600px;
-        /* background-color: gray; */
         justify-content: space-between;
+    }
+
+    .hero {
+        max-width: 900px;
     }
 }
