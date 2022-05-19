@@ -1,0 +1,35 @@
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-menu{
+    font-size: 3rem;
+}
+
+.main-nav {
+    display: none;
+}
+
+
+/* Desktop */
+@media screen and (min-width:1000px) {
+    .burger-menu{
+        display: none;
+    }
+
+    .main-nav {
+        display: block;
+    }
+
+    .main-nav-list{
+        list-style: none;
+        display: flex;
+        width: 600px;
+        /* background-color: gray; */
+        justify-content: space-between;
+    }
+}

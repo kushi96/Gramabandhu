@@ -33,6 +33,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: black;
 }
 
 .logo {
@@ -40,4 +41,13 @@ a {
     font-weight: 700;
     letter-spacing: 2px;
     color: black;
+}
+
+/* General layouting */
+header {
+    padding: 1.8rem;
+}
+
+section {
+    padding: 0 1.8rem;
 }
