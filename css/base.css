@@ -45,9 +45,19 @@ a {
 
 /* General layouting */
 header {
-    padding: 1.8rem;
+    padding: 3.8rem;
 }
 
 section {
-    padding: 0 1.8rem;
+    padding: 0 3.8rem;
+}
+
+@media screen and (max-width:350px) {
+    header {
+        padding: 1.8rem;
+    }
+    
+    section {
+        padding: 0 1.8rem;
+    }
 }

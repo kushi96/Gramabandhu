@@ -37,8 +37,41 @@ main {
 }
 
 
+/* Tablet */
+@media screen and (min-width:600px) {
+    header {
+        padding: initial;
+        max-width: 524px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 0;
+        max-width: 524px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:800px) {
+    header {
+        max-width: 650px;
+    }
+
+    section {
+        max-width: 650px;
+    }
+}
+
 /* Desktop */
 @media screen and (min-width:1000px) {
+
+    header {
+        max-width: 950px;
+    }
+
+    section {
+        max-width: 950px;
+    }
 
     header {
         border-bottom: 1px solid gray;
