@@ -16,6 +16,7 @@
 }
 
 /* Typography */
+/* monbile approach */
 h1 {
     font-size: 4rem;
     letter-spacing: 1.5px;
@@ -29,7 +30,7 @@ p {
 }
 
 a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -45,9 +46,40 @@ a {
 
 /* General layouting */
 header {
-    padding: 1.8rem;
+    padding: 2.5rem;
 }
 
 section {
-    padding: 0 1.8rem;
+    padding: 0 2.5rem;
+}
+
+/* desktop approach */
+
+@media  screen and (min-width:1000px){
+    h1 {
+        font-size: 6rem;
+    }
+    
+    p {
+        font-size: 2.6rem;
+        letter-spacing: .8px;
+    }
+    
+    a {
+        font-size: 2rem;
+    }
+    
+    .logo {
+        font-size: 2.8rem;
+        
+    }
+    
+    /* General layouting */
+    header {
+        padding: 2.5rem 5rem;
+    }
+    
+    section {
+        padding: 0 5rem;
+    } 
 }
