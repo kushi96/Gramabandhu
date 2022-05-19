@@ -82,4 +82,8 @@ section {
     section {
         padding: 0 5rem;
     } 
+
+    .test{
+        color: red;
+    }
 }
