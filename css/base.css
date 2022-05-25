@@ -35,6 +35,9 @@ a {
     letter-spacing: 1px;
     color: black;
 }
+body{
+    padding: 50px;
+}
 
 .logo {
     font-size: 2.8rem;
