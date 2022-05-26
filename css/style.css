@@ -1,99 +1,42 @@
 /* Header */
+.main-nav {
+    display: none;
+}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
 }
 
-.burger-menu {
+.burger-menu{
     font-size: 3rem;
 }
 
-.main-nav {
-    display: none;
+/* Main */
+.hero{
+    max-width: 900px;
 }
 
 
-/* Hero */
-.hero {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    background-position: -700px, 0;
-}
-
-main {
-    background-image: url(../imgs/hero.jpeg);
-    background-size: cover;
-}
-
-.hero h1,
-.hero p {
-    margin-bottom: 2rem;
-}
-
-
-/* Tablet */
-@media screen and (min-width:600px) {
-    header {
-        padding: initial;
-        max-width: 524px;
-        margin: 0 auto;
-    }
-
-    section {
-        padding: 0;
-        max-width: 524px;
-        margin: 0 auto;
-    }
-}
-/*medium screen  */
-
-@media screen and (min-width:800px) {
-    header {
-        max-width: 650px;
-    }
-
-    section {
-        max-width: 650px;
+@media screen and (max-width:600px) {
+    .hero{
+        text-align: center;
     }
 }
 
-/* Desktop */
-@media screen and (min-width:1000px) {
-
-    header {
-        max-width: 950px;
-    }
-
-    section {
-        max-width: 950px;
-    }
-
-    header {
-        border-bottom: 1px solid gray;
-    }
-
-    .burger-menu {
+@media screen and (min-width:1200px) {
+    .burger-menu{
         display: none;
     }
-
     .main-nav {
         display: block;
     }
 
-    .main-nav-list {
-        list-style: none;
+    .main-nav-list{
         display: flex;
         width: 600px;
         justify-content: space-between;
-    }
-
-    .hero {
-        max-width: 900px;
+        /* background-color: gray; */
     }
 }
