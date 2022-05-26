@@ -60,12 +60,20 @@ header {
     height: 8vh;
 }
 
-main {
-    padding: 0 1rem;
+.hero{
     height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.hero a{
+    align-self: flex-start;
+}
+
+main {
+    padding: 0 1rem;
+ 
 }
 
 h1{
@@ -81,6 +89,7 @@ h1{
         padding: 0 2.5rem;
     }
 
+
     main {
         padding: 0 2.5rem;
     }
@@ -94,7 +103,9 @@ h1{
 
     main {
         padding: 0 3.5rem;
-        height: 90vh;
+    }
+    .hero{
+        height: 92vh;
     }
 }
 
